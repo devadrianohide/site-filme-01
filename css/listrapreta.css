@@ -1,0 +1,58 @@
+.listraPreta{
+    margin-top: 50px;
+    height: 100px;
+    background-color: #121212;
+}
+
+.h3Moreninha {
+    margin: 40px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #0f0f0f;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: -1px -1px 3px #020202, 
+        2px 2px 4px #1b1b1b;
+}
+
+.focus-in-expand-fwd {
+	-webkit-animation: focus-in-expand-fwd 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand-fwd 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes focus-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-800px);
+              transform: translateZ(-800px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-800px);
+              transform: translateZ(-800px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  

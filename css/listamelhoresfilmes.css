@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.mainPrincipalIndex {
+    background-color: #020024;
+}
+
+
+.sectionAbaMaiorIndex {
+    background-image: url("/assets/imagens/fundo-section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: white;
+    width: 80vw;
+    margin-top: 100px;
+    border-radius: 30px 30px 0 0;
+    border: 5px solid black;
+    outline: 5px solid white;
+}
+
+.tituloFilmesPagPrincipal {
+  margin: 40px auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 30px 20px 0px #cb0066,
+    -5px -6px 0px #64a5b7;
+}
+
+/*******/
+
+.ulListaFilmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.ulListaFilmes>li {
+    padding: 8px;
+    display: inline-block;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 1s;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.501);    
+}
+
+.ulListaFilmes img {
+    
+    z-index: -1;
+    opacity: 1;
+    width: 200px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+.ulListaFilmes p {
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.ulListaFilmes a {
+    text-decoration: none;
+    color: white;
+    transition: 0.7s;
+    font-family: 'Righteous', cursive;
+}
+
+.ulListaFilmes a:hover {
+    font-size: 1.15em;
+    transition: 0.7s;
+}
+
