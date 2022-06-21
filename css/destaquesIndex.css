@@ -47,7 +47,7 @@
     height: 99%;
     grid-area: box-1;
     margin: 1px solid black;
-    transition: 1s;
+    transition: .5s;
 }
 
 .imgPrincipal {
