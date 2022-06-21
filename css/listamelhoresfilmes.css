@@ -12,7 +12,7 @@ html {
 
 
 .sectionAbaMaiorIndex {
-    background-image: url("/assets/imagens/spider.jpg");
+    background-image: url("../assets/imagens/spider.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

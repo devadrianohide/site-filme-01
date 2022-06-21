@@ -2,7 +2,7 @@
 
 .destaquesDoMes {
    height: 600px;
-    background-image: url('/assets/imagens/viuvaFundo.jpg');
+    background-image: url('../assets/imagens/viuvaFundo.jpg');
     background-size: cover;
     width: 80vw;
     margin: 0 auto;
