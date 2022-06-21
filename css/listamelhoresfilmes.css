@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 html {
     box-sizing: border-box;
@@ -28,14 +29,46 @@ html {
 
 .tituloFilmesPagPrincipal {
   margin: 40px auto;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 90px;
+  font-family: 'Audiowide', cursive;
   font-weight: bold;
   color: #ffffff;
   text-align: center;
-  text-shadow: 30px 20px 0px #cb0066,
-    -5px -6px 0px #64a5b7;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+      font-size: 4.2rem;
+      animation: flicker 1.5s infinite alternate;   
 }
+
+
+
+/* Flickering animation */
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
 
 /*******/
 

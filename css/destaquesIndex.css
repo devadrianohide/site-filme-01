@@ -9,6 +9,7 @@
     margin-top: 22px;
     padding-top: 20px;
     box-shadow: rgba(255, 255, 255, 0.182) 0px 48px 100px 0px;
+    cursor: pointer;
 }
 
 
@@ -179,6 +180,12 @@ a.linkAssistirBotao {
 .box {
     border: 1px solid black;
     margin: 2px;
+    transition: 0.5s;
+}
+
+.box:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .boxImagem {
