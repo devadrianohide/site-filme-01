@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
 
 .destaquesDoMes {
-   height: 600px;
+   height: 650px;
     background-image: url('../assets/imagens/viuvaFundo.jpg');
     background-size: cover;
     width: 80vw;
     margin: 0 auto;
     margin-top: 22px;
-    padding-top: 100px;
+    padding-top: 20px;
     box-shadow: rgba(255, 255, 255, 0.182) 0px 48px 100px 0px;
 }
 
 
+.h1DestaquesFilme {
+    font-family: 'Saira Stencil One', cursive;
+    text-align: center;
+    font-size: 4.5em;
+    background: -webkit-linear-gradient(#020024, #79090b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 50px;
+}
+
+
 .articleDestaques {
-    
     width: 1240px;
     margin: 0 auto;
     display: grid;
@@ -176,15 +186,7 @@ a.linkAssistirBotao {
     height: 100%;
 }
 
-.h1DestaquesFilme {
-    font-family: 'Saira Stencil One', cursive;
-    text-align: center;
-    font-size: 3.5em;
-    background: -webkit-linear-gradient(#020024, #79090b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  
-}
+
 
 
 
