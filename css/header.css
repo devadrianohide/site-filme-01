@@ -6,7 +6,7 @@ body {
 
 .headerPrincipal {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,11,1) 53%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #020024 53%, rgb(0, 129, 155) 100%);
     height: 550px;
     background-size: 300% 300%;
     animation: gradient 10s ease infinite;
