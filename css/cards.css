@@ -61,7 +61,6 @@
 
 .listaCards>li img {
     width: 100%;
-    display: inline-block;
     border-radius: 10px 10px 0px 0px;
     transition: 1s;
 }

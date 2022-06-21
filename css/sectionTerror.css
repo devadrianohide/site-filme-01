@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+.sectionTerrorIndex {
+    width: 80vw;
+    height: 750px;
+    /*border: 1px solid white;*/
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-image: url('../assets/imagens/fundoTerror.png');
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: 500px;
+    position: relative;
+    background-color: rgba(238, 238, 238, 0);
+    box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+    border-radius: 20px;
+}
+
+.imgTerrorIndex {
+    width: 250px;
+    position: absolute;
+    left: -120px;
+    top: 50px;
+}
+
+
+
+.sangue {
+    position: absolute;
+    width: 450px;
+    top: 200px;
+    right: -200px;
+}
+
+.imgTerrorIndex2 {
+  
+}
+
+
+h2.tituloSectionTerror {
+    padding-top: 50px;
+    font-family: 'Rubik Wet Paint', cursive;
+    color: white;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 90px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
