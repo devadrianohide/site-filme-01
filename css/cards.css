@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
 
 .cardsIndex {
     position: relative;
     width: 80vw;
     height: 750px;
-    border: 1px solid white;
     margin: 0 auto;
     margin-top: 80px;
     padding: 10px;
-    background-image: url('../assets/imagens/borda.png');
+    background-image: url('../assets/imagens/fundoOscar.png');
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
 .cardsIndex>ul {
@@ -19,12 +21,25 @@
 }
 
 .cardsIndex>ul>li {
-    border: 1px solid white;
+    border: 1px solid #EEC430;
     border-radius: 10px;
-    width: 15vw;
-    height: 480px;
+    width: 13vw;
     margin-top: 120px;
-    
+    padding: 5px;
+    overflow: hidden;
+    padding: 15px;
+    transition: 2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.cardsIndex>ul>li:hover:hover {
+    transform: translate(0, -100px);
+    transition: 1s;
+    z-index: 1;
+    box-shadow: rgba(239, 239, 239, 0.2) 0px 20px 30px;
+    border: none;
 }
 
 .cardsIndex>h2 {
@@ -42,4 +57,51 @@
     position: absolute;
     right: 30%;
     top: 2%;
+}
+
+.listaCards>li img {
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px 10px 0px 0px;
+    transition: 1s;
+}
+
+.listaCards>li img:hover {
+    transform: scale(1.1);
+}
+
+
+.listaCards>li figcaption {
+    margin-top: 30px;
+    height: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0px 0px 10px 10px;
+    background-image: url('../assets/imagens/montanhas.png');
+    background-size: cover;
+    background-position: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.listaCards>li figcaption>p {
+    text-align: center;
+    font-family: 'Vast Shadow', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #EEC430,
+      0 0 82px #EEC430,
+      0 0 92px #EEC430,
+      0 0 102px #EEC430,
+      0 0 151px #EEC430;
+}
+
+.listaCards>li>a {
+    text-decoration: none;
 }
