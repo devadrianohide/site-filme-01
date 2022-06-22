@@ -21,21 +21,31 @@
     position: absolute;
     left: -120px;
     top: 50px;
+    transition: 3s;
 }
 
+
+.imgTerrorIndex:hover {
+    transition: 5s;
+    transform: scale(0.5);
+    left: -400px;
+}
 
 
 .sangue {
     position: absolute;
-    width: 450px;
+    width: 300px;
     top: 200px;
-    right: -200px;
+    right: -100px;
+    transition: 2s;
 }
 
-.imgTerrorIndex2 {
-  
-}
 
+.sangue:hover {
+    transition: 3s;
+    transform: scale(1.5);
+    right: 100px;
+}
 
 h2.tituloSectionTerror {
     padding-top: 50px;
@@ -48,3 +58,62 @@ h2.tituloSectionTerror {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+h2.tituloSectionTerror2 {
+    color: rgb(255, 255, 255);
+    font-size:  3rem;
+    position: absolute;
+}
+
+
+.assistaTerror {
+    position: absolute;
+    width: 300px;
+    bottom: -120px;
+    left: 43%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.assistaTerror:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+
+.filmesTerrorIndex {
+    position: absolute;
+    display: flex;
+    height: 500px;
+    width: 60vw;
+    top: 110px;
+    left: 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.filmesTerrorIndex img {
+    width: 200px;
+    transition: 1.5s;
+}
+
+.filmesTerrorIndex img:hover {
+    transition: 1.5s;
+    transform: scale(1.1);
+}
+
+.filmesTerrorIndex>a {
+    text-decoration: none;
+}
+
+.figcaptionPastasTerror {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    opacity: 0.9;
+    font-weight:bold;
+    letter-spacing: 2px;
+}
+
