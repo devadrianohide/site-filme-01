@@ -126,9 +126,9 @@ html {
 }
 
 
-/*Começo medias Queries 600px tablet*/
+/*Começo medias Queries 1200px tablet*/
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
 
 
     .sectionAbaMaiorIndex{
@@ -162,9 +162,9 @@ html {
 
 
 
-/*Começo medias Queries 500px tablet*/
+/*Começo medias Queries 600px tablet*/
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     .sectionAbaMaiorIndex{
         width: 95vw;

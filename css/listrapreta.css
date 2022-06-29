@@ -21,7 +21,7 @@
     text-shadow: 2px 2px 4px #000000;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .listraPreta{
         height: 150px;
         border-top: 0px;

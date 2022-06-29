@@ -195,8 +195,8 @@ a.linkAssistirBotao {
 
 
 
-/* Media queries do Destaques Mês  600px tablet*/
-@media (max-width: 600px){
+/* Media queries do Destaques Mês  1200px tablet*/
+@media (max-width: 1200px){
 
     .destaquesDoMes {
         width: 90vw;
@@ -247,9 +247,9 @@ a.linkAssistirBotao {
 }
 
 
-/* Media queries do Destaques Mês  500px cell*/
+/* Media queries do Destaques Mês  600px cell*/
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 
     .destaquesDoMes {
         width: 90vw;

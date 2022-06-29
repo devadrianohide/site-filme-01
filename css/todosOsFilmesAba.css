@@ -80,9 +80,9 @@ button.inicio-todosOsFilmes {
 
 
 
-/*Começo medias Queries 400px tablet*/
+/*Começo medias Queries 600px tablet*/
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
         
         .nav-todosOsFilmes {
                 display: flex;

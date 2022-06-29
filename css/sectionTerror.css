@@ -120,9 +120,9 @@ h2.tituloSectionTerror2 {
 
 
 
-/*Media queries Section Terror Index 600px tablet*/
+/*Media queries Section Terror Index 1200px tablet*/
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     
     .sectionTerrorIndex {
         width: 90vw;
@@ -215,9 +215,9 @@ h2.tituloSectionTerror2 {
 }
 
 
-/*Media queries Section Terror Index 500px celular*/
+/*Media queries Section Terror Index 600px celular*/
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .sectionTerrorIndex {
         width: 90vw;
         height: 1350px;
