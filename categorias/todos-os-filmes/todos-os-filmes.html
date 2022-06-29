@@ -15,15 +15,22 @@
 </head>
 <body>
 
+ 
+
+    <div class="listraPreta" >
+        <h3 class="h3Moreninha">#Menu de Filmes</h3>
+    </div>
+
+
     <nav class="nav-todosOsFilmes">
         <a href="../../index.html">
             <button class="inicio-todosOsFilmes bounce-in-bck ">Inicio</button>
         </a>
+        <input id="searchbar" class="botaoBusca" onkeyup="search_filmes()" type="text"
+        name="search" placeholder="Busca ex: homem-aranha">
     </nav>
 
-    <div class="listraPreta" >
-        <h3 class="h3Moreninha focus-in-expand-fwd">#Menu de Filmes</h3>
-    </div>
+
     <section class="listaFilmesTotal">
         <ul class="ulListaFilmes">
             <!--Começo Da lista de Filmes Abaixo -->
@@ -89,13 +96,6 @@
                 <a href="../todos-os-filmes-2/harry-Potter-e-o-Prisioneiro-de-Azkaban.html">
                     <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1HdMUghqlgOIvbsU9ZtO40IPRzl.jpg" alt="Harry Potter e o Prisioneiro de Azkaban (2004)">
                         <p>Harry Potter e o Prisioneiro de Azkaban (2004)</p>
-                    </img>
-                </a>
-            </li>
-            <li>
-                <a href="../todos-os-filmes-2/harry-Potter-e-a-camara-Secreta.html">
-                    <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/811j0Jf2D0mK1U6RxXJoZgOB29n.jpg" alt="Harry Potter e a Câmara Secreta (2002)">
-                        <p>Harry Potter e a Câmara Secreta (2002)</p>
                     </img>
                 </a>
             </li>
@@ -1772,5 +1772,24 @@
     
     
     </section>
+    <script>
+        // JavaScript code
+function search_filmes() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByTagName('li');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
+    </script>
     <script src="../../atualizacao.js"></script>
 </body>
+
+

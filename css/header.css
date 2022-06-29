@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #131313;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #630B94;
+    border-radius: 10px;
+}
+
+
+
 body {
     background-color: #020024;
 }

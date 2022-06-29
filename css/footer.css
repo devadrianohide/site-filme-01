@@ -33,4 +33,41 @@
     position: absolute;
 }
 
-/*SVG Abaixo */
+/*Media Queries Footer  600px*/
+
+@media (max-width: 600px) {
+
+    .footerBaixo {  
+        background-image: url('../assets/imagens/montanhas2.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+     }
+     
+     .caixaDoBalaoFooter {
+        display: flex;
+        justify-content: center;
+     }
+     
+     .imagemRedes {
+         margin-top: 120px;
+         width: 90px;
+         margin-left: 30px;
+         box-sizing: border-box;
+         
+     }
+     
+     .imagemRedes:hover {
+         filter: drop-shadow(8px 8px 10px rgba(255, 255, 255, 0.786));
+     }
+     
+     .redesTexto {
+         font-family: 'Righteous', cursive;
+         color: #ccc;
+         font-size: 1.8rem;
+         margin-top: 80px;
+         left: 150px;
+         position: absolute;
+     }
+     
+
+}
