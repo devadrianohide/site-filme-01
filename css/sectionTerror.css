@@ -215,9 +215,9 @@ h2.tituloSectionTerror2 {
 }
 
 
-/*Media queries Section Terror Index 400px celular*/
+/*Media queries Section Terror Index 500px celular*/
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .sectionTerrorIndex {
         width: 90vw;
         height: 1350px;

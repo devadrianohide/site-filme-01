@@ -247,9 +247,9 @@ a.linkAssistirBotao {
 }
 
 
-/* Media queries do Destaques Mês  400px cell*/
+/* Media queries do Destaques Mês  500px cell*/
 
-@media (max-width: 400px){
+@media (max-width: 500px){
 
     .destaquesDoMes {
         width: 90vw;

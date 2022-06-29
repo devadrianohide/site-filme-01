@@ -163,9 +163,9 @@
 }
 
 
-/*Media Queries 400px celular*/
+/*Media Queries 500px celular*/
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .cardsIndex {
         width: 90vw;
     }
