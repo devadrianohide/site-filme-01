@@ -200,7 +200,7 @@ html {
 
     .tituloFilmesPagPrincipal {
         font-size: 3rem;
-
+        animation: none;
     }
 
 }
