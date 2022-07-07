@@ -14,6 +14,7 @@
     
 </head>
 <body>
+    <button onclick="topFunction()" id="myBtn" title="top">Topo</button>
 
  
 
@@ -27,7 +28,7 @@
             <button class="inicio-todosOsFilmes bounce-in-bck ">Inicio</button>
         </a>
         <input id="searchbar" class="botaoBusca" onkeyup="search_filmes()" type="text"
-        name="search" placeholder="Busca ex: homem-aranha">
+        name="search" placeholder="Busque pelo nome ou pelo ano">
     </nav>
 
 
@@ -35,7 +36,63 @@
         <ul class="ulListaFilmes">
             <!--Começo Da lista de Filmes Abaixo -->
 
-            
+
+            <li>
+                <a href="../todos-os-filmes-2/invasaozumbi.html">
+                    <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/QqHtwk0oHYed26zra9WGQGyBSm.jpg" alt="Invasão Zumbi (2016)">
+                        <p>Invasão Zumbi (2016)</p>
+                    </img>
+                </a>
+            </li>
+            <li>
+                <a href="../todos-os-filmes-2/hellraiser1987.html">
+                    <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gQsqWWy9ezNI2dOmTnICt2SS5Uz.jpg" alt="Hellraiser: Renascido do Inferno (1987)">
+                        <p>Hellraiser: Renascido do Inferno (1987)</p>
+                    </img>
+                </a>
+            </li>
+            <li>
+                <a href="../todos-os-filmes-2/it-obra-prima-do-medo.html">
+                    <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vNTvg1pyq0UYf3dwKOkoWIFv1LZ.jpg" alt="It: Uma Obra-Prima do Medo (1990)">
+                        <p>It: Uma Obra-Prima do Medo (1990)</p>
+                    </img>
+                </a>
+            </li>
+            <li>
+                <a href="../todos-os-filmes-2/premonicao3.html">
+                    <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qog4ibJFqTpLAIbqPSXncSG0ODJ.jpg" alt="Premonição 3 (2006)">
+                        <p>Premonição 3 (2006)</p>
+                    </img>
+                </a>
+            </li>
+            <li>
+                <a href="../todos-os-filmes-2/invocacao-do-mal.html">
+                    <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1NxHKZW5DPbUFtbF3MxbdSyxRqU.jpg" alt="Invocação do Mal (2013)">
+                        <p>Invocação do Mal (2013)</p>
+                    </img>
+                </a>
+            </li>
+            <li>
+                <a href="../todos-os-filmes-2/invocacao-do-mal2.html">
+                    <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/o94LZsIKt0priAca7hoN4yz7a1d.jpg" alt="Invocação do Mal 2 (2016)">
+                        <p>Invocação do Mal 2 (2016)</p>
+                    </img>
+                </a>
+            </li>
+            <li>
+                <a href="../todos-os-filmes-2/anabelle.html">
+                    <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zSLofzJfXUzcyvS8OQUyp4bgoLP.jpg" alt="Annabelle (2014)">
+                        <p>Annabelle (2014)</p>
+                    </img>
+                </a>
+            </li>
+            <li>
+                <a href="../todos-os-filmes-2/oExorcista1973.html">
+                    <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z8X9sQ64GPGeJi5hWQsqDqEVMan.jpg" alt="O Exorcista (1973)">
+                        <p>O Exorcista (1973)</p>
+                    </img>
+                </a>
+            </li>
             <li>
                 <a href="../todos-os-filmes-2/moonloght.html">
                     <img loading="lazy" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/AekOkoT88EhDHikUQXQcKri2q4B.jpg" alt="Moonlight: Sob a Luz do Luar (2016)">
@@ -3027,6 +3084,30 @@ function search_filmes() {
         }
     }
 }
+
+
+// pegar botão
+var mybutton = document.getElementById("myBtn");
+
+// quando rolar a página 20px do topo para baixo, o botão será exibido
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// // quando clicar no botão, a página rola para o topo do documento
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+
     </script>
     <script src="../../atualizacao.js"></script>
 </body>
